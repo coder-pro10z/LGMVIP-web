@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT ENROLLMENT FORM</title>
+    <!-- <style></style> -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<div class="back">  
+    <center>  <p id="hdn"> Student Enrollment Form</p> </center>  
+    <div id="form">  
+
+                <label> Name : </label>   
+                <input type="text" id="inName" placeholder= "Name" size="15"  />   
+            <label> Email : </label>    
+            <input type="text" id="inEmail" placeholder="Email" size="15" />  
+                <label for="Website">Website :</label>
+                <input type="text" id="inWebsite" placeholder="Website"/>
+            
+                <label for="file">Image link :</label>
+                <input type="text" id="inImage" placeholder="Upload an image" />
+        
+                <label for="text">   
+                    Gender :  
+                </label><br>
+                <div id="gender" >
+                    Male
+                <input type="radio" value="Male" name="gender" checked >
+                    Female   
+                <input type="radio" value="Female" name="gender"> 
+                Other  
+                <input type="radio" value="Other" name="gender"> 
+                
+            </div>
+         
+            <button type="submit" id="preview" class="btn">Enroll Student</button>   
+            <button type="submit" id="clear" class="btn">clear</button>  
+        </div>
+    
+    <div id="container">
+        <center><h2> Enrolled Students </h2> </center>
+    
+        
+    </div>
+</div>
+         
+    <script src="app.js"></script>
+</body>
+</html>

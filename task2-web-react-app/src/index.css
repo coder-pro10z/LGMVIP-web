@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Merriweather&family=Oswald&family=Roboto+Condensed&family=Ubuntu&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #F1F5F9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-space {
+  justify-content: space-between;
+}
+
+.grid {
+  background-color: #F1F5F9;
+  padding : 50px 0px;
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
+}
+
+.size-20 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
